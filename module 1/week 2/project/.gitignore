@@ -12,3 +12,6 @@ override.tf.json
 *.tfvars
 .terraformrc
 terraform.rc
+
+# DS_Store files
+.DS_Store
