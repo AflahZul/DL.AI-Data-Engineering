@@ -56,7 +56,7 @@ This module covers the fundamentals of data engineering, including the data engi
 ---
 
 ### Week 4: Building End-to-End Batch and Streaming Data Pipelines
-- **Status**: ✅ Passed (100%)
+- **Status**: ✅ Passed
 - **Description**: We implemented a batch pipeline that serves the training data for the recommender system. Using the data, we then stored the output embeddings of the model (using Lambda) in a vector database, and finally implemented the streaming pipeline(Kinesis Firehose) that uses the trained model and the vector database (using PostgreSQL) to provide real-time product recommendations. 
 
 **Key Technologies:**
