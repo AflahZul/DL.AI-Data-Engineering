@@ -17,3 +17,7 @@ terraform.rc
 .DS_Store
 module 1/.DS_Store
 module 1/week 4/.DS_Store
+
+.directory-structure.md
+.DS_Store
+module 1/.DS_Store
