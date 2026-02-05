@@ -1,21 +1,130 @@
-# Terraform
-.terraform/
+# Terraform files
 *.tfstate
 *.tfstate.*
-*.tfplan
-# Ignore override files as they are usually used to override resources locally
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.auto.tfvars
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+apply.log
+plan.log
+crash.log
+crash.*.log
+
+# Sensitive files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# AWS credentials
+.aws/credentials
+.aws/config
+credentials
+config
+
 # Secrets
-*.tfvars
-.terraformrc
-terraform.rc
+secrets.yaml
+secrets.yml
+secrets.json
+*secret*
+*password*
+*token*
 
-# DS_Store files
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
-module 1/.DS_Store
-module 1/week 4/.DS_Store
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
 
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Zip files 
+*.zip
+
+# Lambda deployment packages
+lambda.zip
+*.zip
+
+# Jupyter Notebook
+.ipynb_checkpoints
+**Solution.ipynb
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+src/env
+src/env
+module2/week3/src/env
+.venv/
+__pycache__/
+*.pyc
+.venv/
+module3/week1/.venv/
+
+# labsettings
+Module 2/c2_w2/home/coder/project/src/env
+Module 2/c2_w3 assignment great expectations/project/gx/expectations/.ge_store_backend_id
+*_solution/
+
+# Secrets and API keys
+*access_token*
+*ACCESS_TOKEN*
+*api_key*
+*API_KEY*
+*client_secret*
+*CLIENT_SECRET*
+*secret*
+*SECRET*
+
+# Spotify tokens pattern
+*BQD*
+*BQC*
+*.json
+*.yaml
