@@ -95,6 +95,7 @@ Focus: Dimensional Modeling, dbt, and delivering business value.
 
 - ✅ Analytical Modeling: Transformed normalized OLTP data into a Star Schema (Fact and Dimension tables) optimized for high-performance OLAP aggregations.
 - ✅ dbt (Data Build Tool): Built a modular transformation layer; defined schema.yml for automated testing (unique, not_null) and generated lineage graphs.
+
 🏆 Capstone Project - "DeFtunes": Architected an end-to-end music streaming pipeline.
 - Ingestion: Extracted from PostgreSQL and APIs.
 - Transformation: Used Spark to flatten complex JSON arrays and enforce schemas
