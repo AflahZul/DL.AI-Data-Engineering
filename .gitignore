@@ -112,6 +112,8 @@ module3/week1/.venv/
 Module 2/c2_w2/home/coder/project/src/env
 Module 2/c2_w3 assignment great expectations/project/gx/expectations/.ge_store_backend_id
 *_solution/
+.dotfiles-coursera
+
 
 # Secrets and API keys
 *access_token*
