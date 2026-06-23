@@ -100,3 +100,5 @@ Focus: Dimensional Modeling, dbt, and delivering business value.
 - Ingestion: Extracted from PostgreSQL and APIs.
 - Transformation: Used Spark to flatten complex JSON arrays and enforce schemas
 - Serving: Created Materialized Views in Amazon Redshift for low-latency analytics dashboards.
+
+Certificate Link: https://www.coursera.org/account/accomplishments/specialization/certificate/L1THC931QZ0D
